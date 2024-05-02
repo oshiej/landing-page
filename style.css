@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* overflow hidden allows the content to be clipped instead of busting out
+  of the elements box ala Kool-aid man 
+  
+  height 100vh makes the height the same as the viewport. Was used in the other exercises
+  so I am gonna keep it here */
+
+
+  .header {
+    display: flex;
+    
+  }
