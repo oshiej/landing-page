@@ -2,7 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
   }
@@ -16,5 +16,35 @@ body {
 
   .header {
     display: flex;
-    
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+  .right-links, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;  
+  }
+
+  button {
+    background-color: #3882F6;
+  }
+
+
+
+  
+
+
+ 
