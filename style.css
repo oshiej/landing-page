@@ -1,16 +1,16 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  
+  overflow-y: auto;
+  overflow-x: auto;
   
 }
 
-/* overflow hidden allows the content to be clipped instead of busting out
-of the elements box ala Kool-aid man 
+/* overflow x and y allows for scrolls bars to be added 
 
 height 100vh makes the height the same as the viewport. Was used in the other exercises
 so I am gonna keep it here */
@@ -28,6 +28,7 @@ so I am gonna keep it here */
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
+  padding-bottom: 50px;
   
 }
 
@@ -45,6 +46,7 @@ li {
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
+  padding-bottom: 50px;
 }
 
 
@@ -59,7 +61,7 @@ li {
   font-weight: bold;
 }
 
-.right-links, .subtext {
+.right-links, .subtext, .text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -72,7 +74,14 @@ li {
 
 button {
   background-color: #3882F6;
+  border-radius: 12px;
+  padding: 5px;
 }
+
+.header-button {
+  margin-top: 10px;
+}
+
 
 .information-header {
   font-weight: bolder;
@@ -88,6 +97,8 @@ button {
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 img.cat-pic {
@@ -96,10 +107,33 @@ img.cat-pic {
 
 .text {
   text-align: center;
+  color: #1f2937;
 }
 
+.quote-section {
+  background-color: #E5E7EB;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flexs;
+}
 
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  
+}
 
+.quote-author {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 75px;
+}
 
 
 
