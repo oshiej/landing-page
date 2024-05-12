@@ -45,6 +45,7 @@ li {
   padding-right: 150px;
   padding-bottom: 100px;
   padding-top: 100px;
+  gap: 100px;
 }
 
 
@@ -144,7 +145,7 @@ img.cat-pic {
 .call-container-2 {
   background-color: #3882F6;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   padding: 50px;
   border-radius: 12px;
@@ -169,6 +170,7 @@ img.cat-pic {
 
 #call-button {
   border-color: #E5E7EB;
+  border: solid;
 }
 
 .footer {
