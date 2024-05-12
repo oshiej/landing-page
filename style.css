@@ -1,7 +1,6 @@
 body {
   height: 100vh;
   margin: 0;
-  
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,6 @@ so I am gonna keep it here */
 
   .top-third {
   background-color: #1f2937;
-  
   }
 
 .header {
@@ -29,7 +27,6 @@ so I am gonna keep it here */
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 50px;
-  
 }
 
 ul{
@@ -87,7 +84,6 @@ button {
   border: 0;
 }
 
-
 .information-header {
   font-weight: bolder;
   font-size: 36px;
@@ -130,7 +126,7 @@ img.cat-pic {
   display: flex;
   justify-content: center;
   padding-bottom: 25px;
-  
+  color: #787e86;
 }
 
 .quote-author {
@@ -172,6 +168,19 @@ img.cat-pic {
 
 #call-button {
   border-color: #E5E7EB;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #1f2937;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  padding: 50px;
 }
   
 
